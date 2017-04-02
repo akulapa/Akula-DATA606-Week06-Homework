@@ -215,14 +215,14 @@ Q:4 (6.48) Coffee and Depression. Researchers conducted a study investigating th
 
 **_Alternative Hypothesis $H_{A}$: There is a relationship between categorical variables caffeinated coffee consumption and risk of depression in women. Two categorical variables are dependent._**
 
-**_(c) Women who do not suffer from depression $\hat{p}_{no-dep}$: `r round(2607/50739,3)`. _**
-**_Women who suffer from depression $\hat{p}_{dep}$: `r round(48132/50739,3)`_**
+**_(c) Women who do not suffer from depression $\hat{p}_{no-dep}$: `r round(48132/50739,3)`. _**
+**_Women who suffer from depression $\hat{p}_{dep}$: `r round(2607/50739,3)`_**
 
 **_(d) Women who are consuming 2-6 cups of coffee and feel depression Observed: 373._**
 
 **_Expected: $\frac{row \space total * column \space total}{sample \space size} = \frac{2607  * 6617}{50739}$ = `r round(2607  * 6617/50739)`._**
 
-**_${Z^2}_{2-6 \space cups}:$ $(Observed - Expected)^2/Expected = (373 - 340)^2/340$ = `r round((373 - 340)^2/340,4)`_**
+**_${\chi^2}_{2-6 \space cups}:$ $(Observed - Expected)^2/Expected = (373 - 340)^2/340$ = `r round((373 - 340)^2/340,4)`_**
 
 **_(e) chi square value ${\chi}^2$ = 20.93, degrees of freedom $df = (columns - 1) * (rows - 1) = (5 - 1) * (2 - 1) = `r (5 - 1) * (2 - 1)`$_**
 
